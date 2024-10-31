@@ -69,3 +69,28 @@ form {
 form label, input, textarea, option {
     margin: 10px 0 10px 0;
 }
+
+
+#sponsor {
+    text-align: center; 
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+li {
+    float: left; 
+    margin: 10% 15% 0 10%; 
+}
+.sponsor {
+    max-width: 100px; 
+    height: auto;
+    border-radius: 10%;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both; 
+}
