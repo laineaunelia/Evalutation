@@ -1,6 +1,7 @@
+/*font*/
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-
+/*everyone*/
 html {
     background: linear-gradient(0.50turn, #FFF2C6, #eb9fef, #00d4ff);
     color: rgba(0,0,0,0.6);
@@ -10,20 +11,19 @@ html {
     font-style: normal;
 }
 
+/*tête*/
 header {
     margin-top: 10%;
 }
 
+/*titre tête*/
 header h1 {
     width: 40%;
     height: 50%;
     margin: 15px 0 15px 35%;
 }
 
-main {
-    margin-top:15%;
-}
-
+/*logo*/
 .logo {
     height: 20%;
     width: 15%;
@@ -33,23 +33,26 @@ main {
     margin: 0 15px 0 15px;
 }
 
-.kpop{
-    margin: 0 40px 40px 40px;
-    text-align: right;
+
+/*corps*/
+main {
+    margin-top:15%;
 }
 
-
+/*tableau*/
 table {
     width: 95%;
     border-collapse: collapse;
     margin: 15% 0 10% 0;
 }
 
+/*case du tableau*/
 th, td {
     padding: 10px;
     text-align: center;
 }
 
+/*bouton*/
 button {
     padding: 10px 20px;
     background-color: #3AC6FB;
@@ -59,10 +62,12 @@ button {
     cursor: pointer;
 }
 
+/*bouton action*/
 button:hover {
     background-color: #EBA2ED;
 }
 
+/*image de groupe*/
 .groupe {
     height: 50%;
     width: 50%;
@@ -70,33 +75,61 @@ button:hover {
     border: 1px solid rgba(0,0,0,0.3);
 }
 
+/*formulaire*/
 form {
     margin-bottom: 15%;
     width: 100%;
     text-align: center;
+    margin: 10% 0 5% 0;
 }
 
-form label, input, textarea, option {
-    margin: 10px 0 10px 0;
-}
-
+/*partenaires*/
 section {
     text-align: center;
     margin-bottom: 10%;
 }
 
+/*image*/
 section img {
-    max-width: 25%;
+    width: 100px;
+    height: 100px;
 }
 
-ul {
+/*Liste*/
+section ul {
     list-style-type: none; 
     padding: 0; 
-    margin: 0; 
-    display: flex; 
-    justify-content: center; 
+    margin: 0 0 0 40%;
 }
 
-li {
+/*alignement*/
+ul li {
+    float: left; 
     margin: 0 10px; 
 }
+
+/*pied*/
+footer {
+    text-align: center;
+    padding: 20px; 
+}
+
+/*musique*/
+footer audio {
+    margin-bottom: 15px; 
+}
+
+/*imagers*/
+.rs {
+    width: 100px;
+    height: 100px;
+}
+
+/*Liste*/
+footer ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0 0 0 35%;
+}
+
+
